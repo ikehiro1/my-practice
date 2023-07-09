@@ -1,0 +1,20 @@
+.obj {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #99ccff, #0059b3);
+  }
+  .anime {
+    animation: ugoku 1s;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #99ccff, #0059b3);
+  }
+  @keyframes ugoku {
+    from {
+      transform: translateX(0px);
+    }
+  
+    to {
+      transform: translateX(300px);
+    }
+  }
